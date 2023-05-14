@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  animation: hue 15s infinite;
+  animation-delay: 1s;
+}
+h1 {
+  align-self: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", monospace;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  max-width: 40rem;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 4.8rem;
+  background-image: linear-gradient(rgb(193, 18, 18), rgb(18, 18, 193));
+  box-shadow: 5px 5px 5px black;
+
+}
+#video {
+  margin: 5%;
+}
+@keyframes hue {
+  from{filter:hue-rotate(0deg)}
+  to{filter:hue-rotate(360deg)}
+}
