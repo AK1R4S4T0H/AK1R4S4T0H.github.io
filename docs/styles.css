@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  animation: hue 10s infinite;
+  animation: hue 240s infinite;
 }
 h1 {
   align-self: center;
@@ -24,7 +24,7 @@ h1 {
 }
 @keyframes hue {
   from{filter:hue-rotate(0deg)}
-  to{filter:hue-rotate(360deg)}
+  to{filter:hue-rotate(7200deg)}
 }
  #typing {
   text-align: center;
