@@ -26,3 +26,10 @@ document.querySelector("h1").onmouseover = event => {
     iteration += 1 / 7;
   }, 60);
 }
+
+
+var autoPlayVideo = document.getElementById("iframe");
+    autoPlayVideo.oncanplaythrough = function() {
+        autoPlayVideo.muted = false;
+        autoPlayVideo.play();
+    }
