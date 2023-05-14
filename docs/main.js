@@ -1,7 +1,7 @@
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:;<>[]{}()/?@#$%^&*|";
 
 let interval = null;
-let timeout = null;
+let timeout = 0;
 
 function startRandomHover() {
   clearTimeout(timeout);
