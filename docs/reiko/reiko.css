@@ -1,0 +1,108 @@
+html {
+
+  background-color: rgb(124, 250, 187);
+  animation: canvas 50s linear infinite;
+  max-width: 1090px;
+ }
+
+canvas {
+  position: fixed;
+  animation: canvas 50s linear infinite;
+}
+
+header {
+  display: grid;
+  grid-column: 1;
+  grid-row: 0;
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 20px 13px 14px rgb(58, 51, 51);
+  border-radius: 1.3rem;
+  animation: canvas 50s linear infinite;
+  color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: goldenrod;
+  border: 1px white solid;
+}
+h2 {
+  position: center;
+}
+footer  {
+  position: absolute;
+ color: red;
+ bottom: 0;
+}
+a {
+  color: red;
+}
+.audi {
+  width: 100%;
+}
+#Reiko {
+  display: grid;
+  grid-column: 1;
+  grid-row: 0;
+  align-items: center;
+  margin-left: 36%;
+  margin-right: 30%;
+  border:2px white solid;
+  box-shadow: 20px 13px 17px rgb(42, 41, 41);
+  border-radius: 1.3rem; 
+}
+.image1 {
+  margin-left: 27%;
+  margin-right: 27%;
+  border:2px white solid;
+  box-shadow: 20px 13px 17px rgb(41, 35, 35);
+  border-radius: 1.3rem; 
+
+}
+
+@keyframes canvas {
+  from {
+    filter: hue-rotate(0deg);
+  } to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.nav {
+  display: grid;
+  grid-column: 0;
+  grid-row: 1;
+  background: #0c0909;
+  font-size: 1rem;
+  color: #fff;
+  border: 4px solid rgb(58, 4, 72);
+  border-radius: 1.2rem;
+  box-shadow: 15px 5px 5px  rgba(44, 45, 49, 0.395);
+  width: 75%;
+  transition: all 500ms;
+  margin-right: 6%;
+  margin-left: 6%;
+  overflow: hidden;
+  background-image: radial-gradient(#181515, #442154, #19115d);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav:hover {
+  box-shadow: 15px 0px 0px rgba(40, 42, 46, 0.806);
+  transform: scale(1.4);
+  transform: translateY(-1px);
+  transition: ease-in-out;
+  filter: hue-rotate(180deg);
+  transform-origin: center;
+} 
+.nav:link {
+  color: rgb(167, 235, 247);
+  text-decoration: none;
+}
+.nav:visited {
+  color: rgb(167, 235, 247); 
+  text-decoration: none;
+}

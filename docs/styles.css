@@ -29,24 +29,25 @@ h1 {
  #typing {
   text-align: center;
  }
- li {
+ .nav {
   border: 2px white outset;
-  margin-top: 1%;
-  margin-bottom: 1%;
   width: 50px;
   max-width: 50px;
   text-decoration: none;
   border-radius: 1rem;
-  padding-left: 1%;
-  padding-right: auto;
+  padding: 2px;
   transition: ease-in-out 200ms;
- }
- li:hover {
-  transform: translateY(2px);
-  transition: ease-in 200ms;
-  box-shadow: 6px 6px 2px #3f3e3e;
- }
- a {
   color: white;
   text-decoration: none;
+  margin: 1%;
+ }
+ .nav:hover {
+  transform: translateY(5px);
+  transition: ease-in 200ms;
+  box-shadow: 6px -7px 2px #532d2d,
+              6px 7px 2px #532d2d,
+              -6px 7px 2px #532d2d,
+              -6px -7px 2px #532d2d;
+  background: white;
+  color: black;
  }
