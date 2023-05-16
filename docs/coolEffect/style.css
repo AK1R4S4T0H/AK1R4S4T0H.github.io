@@ -1,0 +1,108 @@
+html {
+  background-image: linear-gradient( #666666, #111111);
+  background-position: center;
+  font-family: 'Bruno Ace SC';
+}
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #FFAA00;
+  border: outset black;
+  box-shadow: 1px 5px 1px #000;
+  border-bottom-right-radius: 8rem;
+  border-top-left-radius: 8rem;
+  padding-left: 7%;
+  padding-right: 3%;
+}
+p {
+  background-color: #FF7700;
+  border: outset black;
+  box-shadow: 1px 5px 1px #000;
+  border-bottom-right-radius: 8rem;
+  border-top-left-radius: 8rem;
+  padding-left: 7%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+nav {
+  text-transform:uppercase;
+  letter-spacing:0.0343em;
+  font-size:1.2em;
+  background-color: #FFBB00;
+  border: outset black;
+  box-shadow: 1px 5px 1px #000;
+  border-top-left-radius: 40rem;
+  border-bottom-right-radius: 40rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+a {
+  text-decoration: none;
+}
+nav ul li {
+  display:inline-block;
+  margin-left:5%;
+
+}
+nav ul li a {
+  letter-spacing:2px;
+  color:#FFFFFF00;
+  text-shadow: 1px 1px 2px #000000;
+  -webkit-transition:color .2s ease;
+  -o-transition:color .2s ease;
+  transition:color .2s ease;
+
+  position:relative;
+  display:inline-block;
+
+}
+.effect ul li a:hover {
+  color:#666666;
+  transform: scale(1.2);
+
+}
+.effect ul li a:hover::after, .effect ul li a:hover::before {
+  width:110%;
+  left:0;
+}
+.effect ul li a::after, .effect ul li a::before {
+  content:'';
+  position:absolute;
+  top: 70%;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border-bottom-left-radius: 2.4rem;
+  overflow:hidden;
+  right:0;
+  height:5px;
+  width:0;
+  -webkit-transition:width .3s cubic-bezier(4.29, 4.18, 4.26, 4.83);
+  -o-transition:width .3s cubic-bezier(4.29, 4.18, 4.26, 4.83);
+  transition:width .3s cubic-bezier(4.29, 4.18, 4.26, 4.83);
+}
+.effect ul li a::before {
+  -webkit-transition:width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+  -o-transition:width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+  transition:width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+  background:#FF0000;
+}
+.effect ul li a::after {
+  -webkit-transition:width .3s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+  -o-transition:width .3s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+  transition:width .3s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+  background:#000000;
+}
+.effect ul li a.active:after {
+  background-color:#FFFFFF;
+  width:130%;
+}
+.effect ul li a.active:before {
+  z-index:2;
+}
+a {
+  text-decoration: none;
+}
