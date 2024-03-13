@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  animation: hue 10s infinite;
+  animation: hue 60s infinite;
 }
 h1 {
   align-self: center;
