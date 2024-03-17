@@ -64,9 +64,7 @@ nav {
   margin-left: 5%;
   margin-right: 5%;
 }
-a {
-  text-decoration: none;
-}
+
 nav ul li {
   display:inline-block;
   margin-left:5%;
@@ -126,7 +124,4 @@ nav ul li a {
 }
 .effect ul li a.active:before {
   z-index:2;
-}
-a {
-  text-decoration: none;
 }
