@@ -28,45 +28,6 @@ h1 {
 }
  #typing {
   text-align: center;
- }
- .nav {
-  border: 2px white outset;
-  width: 50px;
-  max-width: 50px;
-  text-decoration: none;
-  border-radius: 1rem;
-  padding: 2px;
-  transition: ease-in-out 200ms;
-  color: white;
-  text-decoration: none;
-  margin: 1%;
- }
- .nav:hover {
-  transform: translateX(25%);
-  transition: ease-in 200ms;
-  box-shadow: 6px -7px 2px #532d2d,
-              6px 7px 2px #532d2d,
-              -6px 7px 2px #532d2d,
-              -6px -7px 2px #532d2d;
-  background: transparent;
-  color: rgb(255, 255, 255);
-
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  section {
