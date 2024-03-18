@@ -1,5 +1,8 @@
 body {
   background-color: rgb(32, 20, 20);
+  background-image: url('../pics/back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   animation: hue 60s infinite;
 }
 h1 {
@@ -51,7 +54,7 @@ nav {
   text-transform:uppercase;
   letter-spacing:0.0343em;
   font-size:1.2em;
-  background-color: #FFBB00;
+  background-image: linear-gradient(rgb(193, 18, 18), rgb(18, 18, 193));
   border: outset black;
   box-shadow: 1px 5px 1px #000;
   border-top-left-radius: 40rem;
@@ -119,4 +122,7 @@ nav ul li a {
 }
 .effect ul li a.active:before {
   z-index:2;
+}
+a {
+  text-decoration: none;
 }
