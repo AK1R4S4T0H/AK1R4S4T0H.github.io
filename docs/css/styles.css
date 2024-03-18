@@ -18,7 +18,7 @@ h1 {
   max-width: 40rem;
   border: 4px solid rgb(255, 255, 255);
   border-radius: 4.8rem;
-  background-image: linear-gradient(rgb(193, 18, 18), rgb(18, 18, 193));
+  background-image: linear-gradient(rgb(138, 18, 193), rgb(193, 167, 18));
 
 
 }
@@ -54,7 +54,7 @@ nav {
   text-transform:uppercase;
   letter-spacing:0.0343em;
   font-size:1.2em;
-  background-image: linear-gradient(rgb(193, 18, 18), rgb(18, 18, 193));
+  background-image: linear-gradient(rgb(138, 18, 193), rgb(193, 167, 18));
   border: outset black;
   box-shadow: 1px 5px 1px #000;
   border-top-left-radius: 40rem;
