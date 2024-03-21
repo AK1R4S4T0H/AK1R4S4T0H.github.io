@@ -5,6 +5,13 @@ body {
   background-size: cover;
   animation: hue 60s infinite;
 }
+
+#lagging-image {
+  position: fixed;
+  z-index: 9999;
+  transition: transform 0.1s ease-in-out; /* Smooth transition */
+}
+
 h1 {
   align-self: center;
   color: rgb(255, 255, 255);
